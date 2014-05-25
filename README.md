@@ -83,7 +83,7 @@ for (i in 1:6) {
 
 We also created a character vector for the number of lines in the *_train.txt files, but with the word "train" repeated once for each line. We then combined these variables using cbind and renamed the columns with more descriptive titles (discussed above). We repeated this procedure for the *_test.txt files, then used rbind to combine the dataframes and write the result to a file ("gettingAndCleaningPart1_wholeSet.txt").
 
-The assignment said to subset out only the mean and std values, so we added a step that will extract any column with a name containing "mean" or "std" write it to a second file ("gettingAndCleaningPart1.txt"). It didn't really seem like there was a place to submit either of these two file on the project page, so they are in the same repo as this README file.
+The assignment said to subset out only the mean and std values, so we added a step that will extract any column with a name containing "mean" or "std" and write the resulting table to a second file ("gettingAndCleaningPart1.txt"). It didn't really seem like there was a place to submit either of these two file on the project page, so they are in the same repo as this README file.
 
 Part 2 - Tidy Data
 --------------------------
