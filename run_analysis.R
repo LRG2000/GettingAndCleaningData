@@ -125,5 +125,5 @@ run_analysis <- function(){
       meanlist <- data.frame(meanlist)
       names(meanlist) <- nms
       write.table(meanlist, file="gettingAndCleaningProject_tidyData.txt", col.names=TRUE)
-      
+      print(meanlist)
 }
