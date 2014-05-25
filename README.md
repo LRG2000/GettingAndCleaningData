@@ -27,7 +27,7 @@ Any variable name that began with a "t" was renamed to begin with "time", while 
 * Variables with the text "coefficient" are the Autoregression coefficients with Burg order equal to 4.
 * Variables with "index.of.max.frequency" were originally labeled "maxInds", and are the "inded of the frequency component with largest magnitude" in the Fourier analysis.
 
-* There are 7 variables whose names were unchanged. These are the columns for the angle between two of the other measured variables. We decided that angle(var1.to.var2) was the correct balance between descriptiveness and brevity. These columns should be interpreted as "the angle between variable 1 and variable 2".
+* The variable names in the form of  "angle.var1.to.var2" should be read as "the angle between var1 and var2". In this case, var1 and var2 are physical vectors. 
 * We believe there was a typographical error in the name "angle(tBodyAccJerkMean),gravityMean)" so we removed the middle ")".
 * We believe there was a typographical error in the names in which "Body" was repeated, so we reduced the instance of "Body" to one in those names.
 * When abbreviations in the original column name involved more than one word we expanded the column name to include the full name of the variable.
